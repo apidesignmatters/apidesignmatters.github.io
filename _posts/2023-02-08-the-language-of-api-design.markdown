@@ -1,7 +1,7 @@
 ---
-permalink: /2023/02/08/the-language-of-api-design
 title: The Language of API Design
-layout: default
+date: 2023-02-08 18:00:00 -0000
+layout: post
 ---
 
 # The Language of API Design

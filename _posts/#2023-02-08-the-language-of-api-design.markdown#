@@ -1,0 +1,92 @@
+---
+permalink: /2023/02/08/the-language-of-api-design
+title: The Language of API Design
+date: 2023/02/08
+layout: post
+---
+
+# The Language of API Design
+
+![The Language of API Design &vert; Why API Design with OpenAPI Matters &vert; David Biesack]({{
+'/assets/img/The-Language-of-API-Design-banner.png' | relative_url}})
+
+Today's software landscape demands software systems that can talk to each other. Interoperability and open access to data and services is key to (sometimes phenomenal) success. Application Programming Interfaces-APIs-are at the heart of this revolution, from enabling all the apps on your phone to reinventing companies and entire industries. Forbes explained [Why The API Economy Is The Web's Next Phase](https://www.forbes.com/sites/forbestechcouncil/2020/04/24/after-plaid-and-stripe-hit-it-big-why-the-api-economy-is-the-webs-next-phase) and Nordic APIs described the [role of Open APIs across six diverse industry and government sectors](https://nordicapis.com/open-everything-the-role-of-open-apis-across-6-sectors/). But it's clear APIs are not just the "next wave"-they have been the wave for years. The most successful technology companies rely on APIs. Knowing how to design build APIs can reboot your career.
+
+The [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0) (OAS) has emerged as the dominant format for describing HTTP and RESTful APIs in OpenAPI documents. OAS defines a structured document (with both JSON and YAML representations) of the interface contract of an API. As a structured document, an API definition written with the OAS specification goes far beyond just describing or documenting an API. It is data, and as data, it can be manipulated, processed, analyzed, and transformed. This is the foundation of OpenAPI's power and potential. Hence, this topic will the the heart of an in-depth series in API Design Matters: The Language of API Design
+
+## Why API Design with OpenAPI Matters
+
+Describing an API in OAS enables a whole new level of software automation. Mastering OpenAPI lets you master your software development lifecycle. Via an abundance of tools which can process an OAS document, you can add code generation, mock servers, test automation, API documentation portals, security analysis, and even UI form generation to your tool belt. Because there is one "source of the truth", you have a much higher degree of confidence that the generated software artifacts are more correct when compared to hand-curated artifacts. In this inaugural Language of API Design series of API Design Matters, you will directly experience this power.
+
+Banner graphic with text "OpenAPI Specification" and "API Design Matters"
+
+Turning an idea into an API is no easy task. Mastering OpenAPI and its ecosystem is critical to shipping software in this fast-paced industry and meeting your company's goals. Via this series, you will learn to convert design concepts into OAS API documents. This is akin to picking up a new programming language and writing new programs in it to see how you express programming constructs in that new language. Astute learners (that's you, right?) also learn how the structure of the programming language feeds back on the design process by shaping the way you think about problems. Just as the constraints of a programming language restrict how you map ideas into programs, the constraints of the OpenAPI specification also constrains what types of APIs you can describe with it. This is less of a limitation-it is more like a set of guardrails that keep you on a smooth road rather than letting you go off a cliff. Those same guardrails let all the tools that work with OAS do their job within a well-defined space.
+
+Once you have an OpenAPI document, you and your team can anchor your software development lifecycle around the OpenAPI document, staying on that paved road and delivering your product faster while also ensuring your implementation is robust and correct.
+
+This Language of API Design series does not focus on designing APIs. I will explore API Design in future articles and series in API Design Matters. (There are also some excellent resources for that task, such as [The Design of Web APIs](https://livebook.manning.com/book/the-design-of-web-apis) by Arnaud Lauret.) This series concentrates on transforming API design ideas and concepts into an API definition expressed with the OpenAPI Specification, then using that to bootstrap a significant body of work for your software development lifecycle. This is called an API Design First approach because much of the key development effort and software artifacts begin with and are derived from the API definition, and the OpenAPI document which captures and codifies that API definition is the source code for all the other software project elements.
+
+In this series, you will create OpenAPI documents from which you can automatically generate critical artifacts for your company's software products:
+
+* API documentation
+* Client software development kits (SDKs) for calling your API from client applications
+* Mock servers against which you can test your client applications so your front-end team can build and verify their work before the back-end team has finished
+* Curated and automatic validation of the API against the contract
+* Code to validate and reject invalid input sent to your API
+* Server code to implement your API services
+
+## Scenario
+
+I'm probably not unique in that I severely dislike trivial examples. Instead of using something cliche and tired like Pet Store, this series will employ a single realistic but fictional scenario throughout, and explore many API design and DX matters of this scenario:
+
+: The most successful internet startups have been social media sites. You work as a full stack developer for a new startup which is building a social platform for fan fiction authors. Authors create stories, called chains, using the characters from fictional universes, "chaining" together and remixing text, images, and audio and video media clips. These story elements are called chain links. Authors can mix and remix chain links into new chains, or branch one chain to create alternate story lines and endings. You are tasked with creating the Chain Link REST API for a web service to be used by the web and mobile experience application.
+
+: To do your job, you need to design a REST API that meets the application's needs. You begin with domain driven design (DDD) to understand all the elements of the API. This series does not cover DDD in any depth but will borrow some of the concepts to guide the task of understanding the API client's domain and requirements. This DDD design includes the data objects managed by the API, the actors who use the API via the applications, and all the operations the applications need. You next move on to building an OpenAPI document to define and describe the API and its elements: the URI paths of the resources accessed by the API, the operations that clients use to manipulate those resources, and the data descriptions for the requests and responses. You use some tools to help validate what you are building, analogous to a programming language compiler that warns you about syntax errors or incorrect constructs while coding.
+
+: Once you have a valid OpenAPI document in hand, you generate additional artifacts so your client application team can start building the client:
+
+: * A mock server accepts API calls and returns sample responses, adhering to the API definition. This lets the client team test their application before your back-end team has written a line of code. This also lets the team provide quick, iterative feedback to you as you design the API.
+: * A client Software Development Kit provides a library in the programming language used by the team for developing their application code. The SDK abstracts away the lower-level details of making REST API calls on top of HTTP, allowing the team to work at higher level.
+
+: You also generate stubs for the back-end team to start implementing the Chain Link service, and a separate server-side SDK.
+
+: You publish API documentation as a reference for both teams. The teams work in agile sprints, so you add features incrementally in each sprint, completing and delivering functionality and getting feedback from the consumers as you progress.
+
+: Along the way, you will learn some handy tools to assist with these tasks. This series uses a variety of tools, but there are other options for you to explore. You can decide which tools work best for you and your team.
+
+## Techniques employed
+
+The time of your team members is extremely valuable, so you want to use their time wisely. By automatically generating software artifacts from your OpenAPI documents, you let your team concentrate on their strengths-building software instead of creating boilerplate. You can also generate additional software to verify the implementation is correct.
+
+Albert Einstein said, "Everything should be made as simple as possible, but no simpler." This also applies to API design with OpenAPI. An OpenAPI master knows what to include in the API definition, so that using the API is as simple as possible for the consumer. The master also knows what to leave out, such as implementation details that are of no concern to the consumers. This series emphasizes the mechanics of transforming ideas into OpenAPI constructs that capture the essence of the API, doing so concisely yet with enough fidelity, completeness, and precision that the software artifacts rise above ambiguity and inconsistency. For example, the more precise your API definition is, the more robust the generated SDK will be. This will prevent coding errors for the client team, as the compiler they use can detect coding errors earlier by enforcing the interface contract.
+
+## Series Outline
+
+The Language of API Design series is broken into 5 topics, which you can explore by completing API design projects. This series builds progressively. In each of the five projects, you learn how to map various API concepts into OpenAPI, and you will add those features to the existing OpenAPI documents. At the end of each project, you can regenerate all the code artifacts from the OpenAPI document to share with the team, working iteratively.
+
+1. Build your Product from an OpenAPI Document<br>To start building an API, you need a good conceptual domain model which describes the problem you API will solve. We start by building a domain model, then start mapping that problem into an API model. To help with the task, we first create a GitHub repository to store our work (and share with others) and then create a project with an OpenAPI modeling tool. (The latter is not necessary but is easier for beginners, compared to using just a plain text editor.) The first OpenAPI design task is to define a few operations in the API and map them to the HTTP application protocol. Next, you will start creating useful development artifacts from our OpenAPI document. This first topic provides just a hint of the features available once you have a structured OpenAPI document.
+
+1. Model your API Data with JSON Schema<br>After the API operations, the second critical element of an API is the contract for the input and output of each operation. Most modern APIs use JSON for input and output, although many other data representations are also possible. OpenAPI uses JSON Schema as a data modeling language. There are other data elements in an HTTP API definition as well-query parameters, request and response headers-which are also defined using schemas. To master OpenAPI, you must understand some JSON schema, schema composition, and how schema definitions translate into client programming language data structures (interfaces, types, classes).
+
+1. Keep your OpenAPI DRY<br>Copy/Paste is the bane of software developers. The "Don't Repeat Yourself" (DRY) Principle states there should be one source representation of a code/data construct. Change the single source and all the derived elements are automatically updated. The OpenAPI Specification is designed to encourage using the DRY principle via reusable components, analogous to reusable functions in executable code. You will apply the DRY principle to define core elements of your API in the OpenAPI components object, then reference those elements where needed.
+
+1. Securing Your API<br>APIs are necessary for digital companies, but they are only valuable if they are secure. API vulnerabilities can mean the end of a company. OpenAPI has many features for capturing the API security design of your API. In this module, you will add security schemas - definitions of security aspects of your API operations. You will also see how to use OpenAPI to abstract internal implementation details of the underlying service in order to keep the data secure.
+
+1. Create a Great API Developer Experience<br>The OpenAPI and JSON Schema techniques you have learned cover many needs, but some APIs need more complex constructs to describe them fully. In this project, you will add some API features that require going beyond the basic capabilities of OpenAPI and JSON Schema.
+
+## Recommended Resources
+
+These are resources directly influenced or are referenced throughout the Language of API Design series and can impact or expand your understanding of the series content.
+
+* [The Design of Web APIs](https://livebook.manning.com/book/the-design-of-web-apis) by Arnaud Lauret
+* [API Design Patterns](https://livebook.manning.com/book/api-design-patterns) by JJ Geewax
+* [REST API cookbook](https://www.oreilly.com/library/view/restful-web-services/9780596809140/) by Subbu Allamaraju
+* [RESTful Web APIs](https://www.oreilly.com/library/view/restful-web-apis/9781449359713/)n by Mike Amundsen, Sam Ruby, Leonard Richardson
+* [Design and Build Great Web APIs](https://pragprog.com/titles/maapis/design-and-build-great-web-apis/) by Mike Amundsen
+* [RESTful Web API Patterns and Practices Cookbook](https://www.oreilly.com/library/view/restful-web-api/9781098106737/) by Mike Amundsen
+* [Principles of Web API Design](https://www.oreilly.com/library/view/principles-of-web/9780137355754/) by James Higginbotham
+* [APIs You Won't Hate](https://apisyouwonthate.com/books/build-apis-you-wont-hate) by Philip Sturgeon
+
+Thanks for reading _API Design Matters_!
+
+{% include discuss.md %}

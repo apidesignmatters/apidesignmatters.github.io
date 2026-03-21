@@ -1,3 +1,10 @@
+all: clean build serve
+
+install:
+	bundle install
+update:
+	bundle update
+
 build:
 	bundle exec jekyll build --incremental
 serve:

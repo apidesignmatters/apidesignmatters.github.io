@@ -1,2 +1,2 @@
 
-[Join the discussion](https://github.com/DavidBiesack/apidesignmatters/discussions)
+[Join the discussion](https://github.com/apidesignmatters/apidesignmatters.github.io/discussions)

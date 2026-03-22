@@ -6,7 +6,7 @@ layout: post
 
 To kick off The Language of API Design series, we will take a brief but important diversion from the OpenAPI Specification and it's unique but powerful language of API design. Our detour will focus on a different sort of language: the ubiquitous language.
 
-In other words, today, I'm "Mr. Language Person".[1](#footnote-1)
+In other words, today, I'm "Mr. Language Person".[<sup>1</sup>](#footnote-1)
 
 The term "API Design First" is quite popular now, but it is misleading. If one began by first creating an API design (fun as that may be for some of us), the result is likely not going to meet any real business need. Something needs to inform that design. That is, you need to know what problem your API is solving and what value the API brings to your consumers, before design starts. In many organizations, the folks who assess business goals and strategy have a "product" focus. They know the customers and their customer's needs and coalesce them into a series of user stories and other activities which result in a set of requirements. They are the folks who, acting as the voice of the customer, decide what needs to be done. Then the architects and engineering and technology teams decide how it will be done-often with an API. (That's good for you and me-Go APIs Go!)
 
@@ -161,8 +161,8 @@ an example of defining an API model using these DDD concepts for a
 fictional but realistic domain that we will use throughout The Language
 of API Design.
 
-### 1
-
+<hr>
+<a id='footnote-1'><sup>1</sup></a>
 "Mr. Language Person", shamelessly stolen from another Dave B. author. For the record, If Dave Barry vows to not claim API design cred, I vow to not claim I've won a Pulitzer Prize for Commentary.
 
 {% include discuss.md %}

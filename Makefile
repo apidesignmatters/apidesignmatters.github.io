@@ -6,7 +6,7 @@ update:
 	bundle update
 
 build:
-	bundle exec jekyll build --incremental
+	bundle exec jekyll build --incremental --watch
 serve:
 	bundle exec jekyll serve --incremental --baseurl="" --watch
 

@@ -28,6 +28,7 @@ I will begin _API Design Matters_ with an extensive series on _The Language of A
 
 Enough about me. I hope to hear from you - what topics of API Design are
 top of mind? How do you approach the design process? Let's have a
-conversation. [Please join the discussion.](https://github.com/DavidBiesack/apidesignmatters.github.io/discussions).
+conversation.
+{% include discuss.md %}
 
 You can also find me on [fosstodon.org/@DavidBiesack](https://fosstodon.org/@DavidBiesack) (no ɹǝʇʇᴉʍʇ, thank you).

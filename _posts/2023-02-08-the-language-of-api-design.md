@@ -2,14 +2,13 @@
 title: The Language of API Design
 date: 2023-02-08 18:00:00 -0000
 layout: post
+tag: the-language-of-api-deign
 ---
 
-# The Language of API Design
+Today's software landscape demands software systems that can talk to each other. Interoperability and open access to data and services is key to (sometimes phenomenal) success. Application Programming Interfaces-APIs-are at the heart of this revolution, from enabling all the apps on your phone to reinventing companies and entire industries. Forbes explained [Why The API Economy Is The Web's Next Phase](https://www.forbes.com/sites/forbestechcouncil/2020/04/24/after-plaid-and-stripe-hit-it-big-why-the-api-economy-is-the-webs-next-phase) and Nordic APIs described the [role of Open APIs across six diverse industry and government sectors](https://nordicapis.com/open-everything-the-role-of-open-apis-across-6-sectors/). But it's clear APIs are not just the "next wave"-they have been the wave for years. The most successful technology companies rely on APIs. Knowing how to design build APIs can reboot your career.
 
 ![The Language of API Design &vert; Why API Design with OpenAPI Matters &vert; David Biesack]({{
 '/assets/img/The-Language-of-API-Design-banner.png' | relative_url}})
-
-Today's software landscape demands software systems that can talk to each other. Interoperability and open access to data and services is key to (sometimes phenomenal) success. Application Programming Interfaces-APIs-are at the heart of this revolution, from enabling all the apps on your phone to reinventing companies and entire industries. Forbes explained [Why The API Economy Is The Web's Next Phase](https://www.forbes.com/sites/forbestechcouncil/2020/04/24/after-plaid-and-stripe-hit-it-big-why-the-api-economy-is-the-webs-next-phase) and Nordic APIs described the [role of Open APIs across six diverse industry and government sectors](https://nordicapis.com/open-everything-the-role-of-open-apis-across-6-sectors/). But it's clear APIs are not just the "next wave"-they have been the wave for years. The most successful technology companies rely on APIs. Knowing how to design build APIs can reboot your career.
 
 The [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0) (OAS) has emerged as the dominant format for describing HTTP and RESTful APIs in OpenAPI documents. OAS defines a structured document (with both JSON and YAML representations) of the interface contract of an API. As a structured document, an API definition written with the OAS specification goes far beyond just describing or documenting an API. It is data, and as data, it can be manipulated, processed, analyzed, and transformed. This is the foundation of OpenAPI's power and potential. Hence, this topic will the the heart of an in-depth series in API Design Matters: The Language of API Design
 
@@ -17,7 +16,8 @@ The [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0) (OAS) has emer
 
 Describing an API in OAS enables a whole new level of software automation. Mastering OpenAPI lets you master your software development lifecycle. Via an abundance of tools which can process an OAS document, you can add code generation, mock servers, test automation, API documentation portals, security analysis, and even UI form generation to your tool belt. Because there is one "source of the truth", you have a much higher degree of confidence that the generated software artifacts are more correct when compared to hand-curated artifacts. In this inaugural Language of API Design series of API Design Matters, you will directly experience this power.
 
-Banner graphic with text "OpenAPI Specification" and "API Design Matters"
+![Banner graphic with text "OpenAPI Specification" and "API Design Matters"]({{
+'/assets/img/OpenAPI-banner.png' | relative_url}})
 
 Turning an idea into an API is no easy task. Mastering OpenAPI and its ecosystem is critical to shipping software in this fast-paced industry and meeting your company's goals. Via this series, you will learn to convert design concepts into OAS API documents. This is akin to picking up a new programming language and writing new programs in it to see how you express programming constructs in that new language. Astute learners (that's you, right?) also learn how the structure of the programming language feeds back on the design process by shaping the way you think about problems. Just as the constraints of a programming language restrict how you map ideas into programs, the constraints of the OpenAPI specification also constrains what types of APIs you can describe with it. This is less of a limitation-it is more like a set of guardrails that keep you on a smooth road rather than letting you go off a cliff. Those same guardrails let all the tools that work with OAS do their job within a well-defined space.
 

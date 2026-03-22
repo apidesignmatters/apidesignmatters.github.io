@@ -2,9 +2,13 @@
 title: API Design First is not API Design First
 date: 2023-02-15 18:00:00 -0000
 layout: post
+tag: the-language-of-api-deign
 ---
 
-To kick off The Language of API Design series, we will take a brief but important diversion from the OpenAPI Specification and it's unique but powerful language of API design. Our detour will focus on a different sort of language: the ubiquitous language.
+To kick off The Language of API Design series, we will take a brief but
+important diversion from the OpenAPI Specification and it's unique but
+powerful language of API design. Our detour will focus on a different
+sort of language: the _ubiquitous language_ of Domain-Driven Design.
 
 In other words, today, I'm "Mr. Language Person".[<sup>1</sup>](#footnote-1)
 

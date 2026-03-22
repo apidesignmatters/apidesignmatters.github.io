@@ -25,13 +25,16 @@ description: >-
   small, topics around building and running API programs... that is, why
   API Design Matters.
   Authored by <a href='https://davidbiesack.github.io'>David Biesack</a>.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://apidesignmatters.githib.io" # the base hostname & protocol for your site, e.g.
 
 # Build settings
 theme: minima
+# hacker, as per as per https://github.com/pages-themes/hacker?tab=readme-ov-file
+# remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
+  # - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -19,7 +19,7 @@ understanding later articles.
 
 {% for tag in site.tags %}
   <ol>
-    {% assign sorted_posts = tag[1] | reversed %}
+    {% assign sorted_posts = tag[1] | sort: 'date'  %}
     {% for post in sorted_posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a>
             {{ post.excerpt }}

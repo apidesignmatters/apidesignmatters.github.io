@@ -1,0 +1,11 @@
+<nav>
+  <div>
+    {% for item in site.data.nav %}
+      &vert;
+      <span {% if page.url == item.url %}class="active"{% endif %}>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </span>
+    {% endfor %}
+    &vert;
+  </div>
+</nav>

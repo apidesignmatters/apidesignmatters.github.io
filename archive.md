@@ -7,8 +7,11 @@ permalink: /archive/
 
 View the archive of {{site.title}} articles here.
 
-{% for post in site.posts %}
-* [{{ post.title }}]({{ post.url | relative_url }}) <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+{% assign sorted_posts = site.posts | sort: 'date'  %}
+{% for post in sorted_posts %}
+## [{{ post.title }}]({{ post.url | relative_url }})
+{{ post.excerpt }}
+<p style='text-align: right'>Published: {{ post.date | date: '%B %-d, %Y' }}</p>
 {% endfor %}
 
 {% include discuss.md %}

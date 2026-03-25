@@ -4,7 +4,7 @@ title: About
 layout: default
 ---
 
-In this substack, I share matters large and small related to API Design, Developer Experience, and building and running API programs... that is, why API Design Matters.
+In _API Design Matters_, I share matters large and small related to API Design, Developer Experience, and building and running API programs... that is, why API Design Matters.
 
 I'll focus on RESTful web services, but many of the concepts apply to other API styles like AsyncAPI, GRPC, and GraphQL. Articles will pull from my 13+ years experience designing RESTful APIs using OpenAPI, but include echos of designing traditional programming language interfaces and libraries over 30+ years of my career.
 

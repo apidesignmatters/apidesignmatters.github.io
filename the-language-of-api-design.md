@@ -23,7 +23,7 @@ some context for understanding later articles.
 
 {% assign sorted_posts = tag[1] | sort: 'date'  %}
 {% for post in sorted_posts %}
-## [{{ post.title }}]({{ post.url }}")
+## [{{ post.title }}]({{ post.url }})
 
 {{ post.excerpt }}
  <p style='text-align: right'>Published: {{ post.date | date: '%B %-d, %Y' }}</p>

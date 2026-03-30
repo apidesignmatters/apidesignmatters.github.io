@@ -5,9 +5,9 @@ layout: post
 tag: the-language-of-api-deign
 ---
 
-Welcome to the next article in the Language of API Design. Rather than jumping into the middle of this series, I encourage new subscribers/visitors start by reading Your Guide to The Language of API Design and scanning previous posts in the series.
-
 In my last article, API Design First is not API Design First, I presented a vastly over-simplified introduction of a domain modeling process and its desired outcomes. Our goal is to build a shared understanding of the problem for our team, focusing on the domain's ubiquitous language. In this next foray into the prerequisite for good API design process, we're going to get down and dirty and apply some of this to our fictional software start up scenario to build a working domain model.
+
+{% include language-of-api-design-series.md %}
 
 ![The Language of API Design &vert; David Biesack]({{'/assets/img/The-Language-of-API-Design-banner.png' | relative_url}})
 

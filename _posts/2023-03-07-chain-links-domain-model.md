@@ -10,6 +10,8 @@ that accompanies
 [The Language of API Design]({{'/the-language-of-api-design' |
 relative_url}}) series in [API Design Matters]('/' | relative_url). Below are several key elements of a Domain Model, with a brief description of each,
 
+{% include language-of-api-design-series.md %}
+
 ## Domain Model
 
 A social media app in which fan fiction authors can compose content, mix other authors' existing content in new ways, to author and share new stories called chains, or continue existing chains. Each chain exists within a universe. Characters (of various species) can span universes and have roles in many chains.
@@ -18,8 +20,9 @@ A social media app in which fan fiction authors can compose content, mix other a
 
 Reading, authoring, composing, and sharing fan fiction stories, called chains, by chaining together story elements, called chain links.
 
-Out of scope for the context of the [The Language of API Design]({{'/the-language-of-api-design' |
-relative_url}}) series series (but things that may be in scope in a commercially viable product):
+Out of scope for the context of the
+[The Language of API Design]({{'/the-language-of-api-design' | relative_url}})
+series series (but things that may be in scope in a commercially viable product):
 
 Content moderation, plagiarism detection, content safety ratings, censorship, and banning authors
 

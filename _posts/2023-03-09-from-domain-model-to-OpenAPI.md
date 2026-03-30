@@ -5,14 +5,14 @@ layout: post
 tag: the-language-of-api-deign
 ---
 
-Welcome to the next article in the Language of API Design. Rather than jumping into the middle of this series, I encourage new subscribers/visitors start by reading Your Guide to The Language of API Design and scanning previous posts in the series.
+{% include language-of-api-design-series.md %}
 
 We’ve built quite a bit of knowledge of the Chain Links API now: you know what the API needs to do, and what the resources are, and some of the constraints and bounds for the resources and behaviors. You can view my more complete Chain Links Domain Model below—this will be the foundation for the Chain Links API design.
 
 > [API Design Matters]({{'/' | relative_url}})
 > __Chain Links Domain Model__
 > I present here a possible Domain Model for the Chain Links application that accompanies The Language of API design series in API Design Matters. Below are several key elements of a Domain Model, with a brief description of each, Domain Model A social media app in which fan fiction authors can compose content, mix other authors' existing content in new way…
-[Read more]({{'/2023/03/07/chain-links-domain-model.html' | | relative_url}}))
+[Read more]({{ '/2023/03/07/chain-links-domain-model' | relative_url}}))
 
 Now it's time to create an [OpenAPI definition](https://spec.openapis.org/oas/latest.html) to define and describe the API. This transformation of a domain model to an API definition is not strictly a mechanical task&mdash;there is some art and skill involved. It's best to establish and use some consistent API design patterns. While we use the Chain Links API as an example, this process can be generalized to other APIs.
 
@@ -22,7 +22,7 @@ We'll code the API definition in [YAML](https://yaml.org/spec/1.2.2/), although 
 
 Go ahead and edit the info section to add a proper title and description
 for the Chain Links API, based on the summary in the
-[domain model]({{'/2023/03/07/chain-links-domain-model' | relative_url}}).
+[domain model]({{ '/2023/03/07/chain-links-domain-model' | relative_url}}).
 
 The first step I take is to define the API resource model—this is the relative URLs of the resources in the API. (This is my first step because the OpenAPI structure sort of imposes this on you.) In OpenAPI terminology, the resource model is the set of API paths in which the API operations are organized.
 
@@ -200,7 +200,7 @@ In order to enable browsing/listing chain links by author, universe, or characte
 Such queries are useful in various views of the Chain Links application.
 For example, when viewing a specific character's biography in the app
 (such as Flingding, one of the fledgling dragons from
-[our user story]({{'2023/02/21/building-an-api-design-model| relative_url}})), the app will have that character's unique id available and can offer a button or link to “View Chain Links that mention Flingding”. If the character Flingding has a character id value of `ch-389fjk-3489djs`, then the API operation
+[our user story]({{ '2023/02/21/building-an-api-design-model' | relative_url}})), the app will have that character's unique id available and can offer a button or link to “View Chain Links that mention Flingding”. If the character Flingding has a character id value of `ch-389fjk-3489djs`, then the API operation
 
 ```
     GET /chainLinks?character=ch-389fjk-3489djs

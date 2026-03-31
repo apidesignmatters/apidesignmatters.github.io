@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Archive
-permalink: /archive/
+permalink: /archive
 ---
 # {{ page.title }}
 

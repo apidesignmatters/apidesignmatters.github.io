@@ -131,3 +131,7 @@ and their roles.)
 1. Chains are limited to 1,000 chain links
 1. Chain titles are limited to 120 characters
 1. Published chain link contents are immutable, although this may change in the future when authors can earn change permissions
+
+{% include discuss.md %}
+
+{% include orig.md %}

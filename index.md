@@ -22,7 +22,10 @@ A good (or great) Developer Experience (DX) is an important aspect of API design
 
 ## Intro
 
-I will begin _API Design Matters_ with an extensive series on _The Language of API Design_. This series will focus on the API First process to complete learning projects with the OpenAPI 3 Specification-why API Design with OpenAPI matters.
+I will begin _API Design Matters_ with an extensive series on [_The Language of API Design_](/the-language-of-api-design). This series will focus on the API First process to complete learning projects with the OpenAPI 3 Specification-why API Design with OpenAPI matters.
+
+To view all articles in _API Design Matters_, please visit the
+[Archive](/archive).
 
 ## Outro
 

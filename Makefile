@@ -1,5 +1,7 @@
 all: clean install build serve
 
+rebuild: clean build serve
+
 install:
 	bundle install
 update:

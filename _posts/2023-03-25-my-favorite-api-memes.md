@@ -22,7 +22,7 @@ Sorry, no attribution on the following:
 
 Also no attribution.
 
-![Someone mentions "Swagger" and Batman slaps hi, saying "It's been OpenAPI since 20Bloody16"]({{ '/assets/img/Robin-Swagger,_Batman-its-been-OpenAPI-since-20Bloody16.png' | relative_url}})
+![Someone mentions "Swagger" and Batman slaps hi, saying "It's been OpenAPI since 20Bloody16"]({{ '/assets/img/Batman-slaps-villian-its-been-OpenAPI-since-20Bloody16.png | relative_url}})
 
 No attribution
 

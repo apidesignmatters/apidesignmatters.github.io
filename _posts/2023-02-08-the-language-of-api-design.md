@@ -2,7 +2,7 @@
 title: The Language of API Design
 date: 2023-02-08 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 Today's software landscape demands software systems that can talk to each other. Interoperability and open access to data and services is key to (sometimes phenomenal) success. Application Programming Interfaces-APIs-are at the heart of this revolution, from enabling all the apps on your phone to reinventing companies and entire industries. Forbes explained [Why The API Economy Is The Web's Next Phase](https://www.forbes.com/sites/forbestechcouncil/2020/04/24/after-plaid-and-stripe-hit-it-big-why-the-api-economy-is-the-webs-next-phase) and Nordic APIs described the [role of Open APIs across six diverse industry and government sectors](https://nordicapis.com/open-everything-the-role-of-open-apis-across-6-sectors/). But it's clear APIs are not just the "next wave"-they have been the wave for years. The most successful technology companies rely on APIs. Knowing how to design build APIs can reboot your career.

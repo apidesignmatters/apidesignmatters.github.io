@@ -2,7 +2,7 @@
 title: Your API Has Problems. Deal With It.
 date: 2023-03-26 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 > _Learn how RESTful APIs can respond to run-time problems_
@@ -342,5 +342,11 @@ Problems happen. Often. Planning for problems and building appropriate
 mechanisms to deal with and describe those problems go a long way
 towards our goal of better API design for all.
 
+<hr>
+
 <a id='footnote-1-ref'/><a href='#footnote-1'><sup>1</sup></a>
 With sincere apologies and utmost reverence to Douglas Adams.
+
+{% include discuss.md %}
+
+{% include orig.md %}

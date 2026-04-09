@@ -2,7 +2,7 @@
 title: Growing a Language
 date: 2023-04-18 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 Today, we take a short diversion from our normal journey through The Language of API Design&mdash;though we're not deviating very far off our path.
@@ -57,5 +57,11 @@ I'll finish with some of my favorite quotes from Steele's talk:
 > patterns that programmers can use for their real work and their main
 > goal.
 
+<hr>
+
 <a id='footnote-1'/><a href='#footnote-1-ref'><sup>1</sup></a>
 With Samuel P. Harbison, Guy Steele wrote wrote C: A Reference Manual. He was also the author of Common Lisp: The Language (a very accessible language specification) and with James Gosling, Bill Joy, and Gilad Bracha, Steele coauthored three editions of The Java Language Specification. He is an widely acknowledged expert in the domain of programming language design.
+
+{% include discuss.md %}
+
+{% include orig.md %}

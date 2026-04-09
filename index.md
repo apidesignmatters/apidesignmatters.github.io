@@ -9,6 +9,9 @@ where I explore API Design and Developer Experience matters large and
 small, topics around building and running API programs... that is, why
 _API Design Matters_.
 
+_API Design Matters_ is also the home for David Biesack's consultancy
+practice of the same name. See David's [Services](/services).
+
 ![API Design Matters banner graphics by David Biesack](/assets/img/API-Design-Matters-banner.png)
 
 In _API Design Matters_ (ADM), I will focus on RESTful web services, but many of the concepts apply to other API styles like AsyncIO, GRPC, and GraphQL. Articles will pull from my 12 years experience designing RESTful APIs using OpenAPI, but include echos of designing traditional programming language interfaces and libraries over 30+ years of my career.

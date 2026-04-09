@@ -3,7 +3,7 @@ title: >-
   "Don't Repeat Yourself" When Designing APIs
 date: 2023-04-09 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 > Techniques for keeping your OpenAPI definitions DRY
@@ -222,8 +222,14 @@ The remainder of _The Language of API Design_ will employ the
 `components` objects for these reasons. So stick around, we'll be right
 back.
 
+<hr>
+
 <a id='footnote-1'/><a href='#footnote-1-ref'><sup>1</sup></a>
 Otherwise known as the DRY principle
 
 <a id='footnote-2'/><a href='#footnote-2-ref'><sup>2</sup></a>
 SwaggerHub, openapi-generator, APIMatic, Speakeasy and others
+
+{% include discuss.md %}
+
+{% include orig.md %}

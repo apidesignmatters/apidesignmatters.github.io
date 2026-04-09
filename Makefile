@@ -1,4 +1,8 @@
-all: clean install build serve
+all: rebuild
+
+gen: build
+
+reset: clean install
 
 rebuild: clean build serve
 

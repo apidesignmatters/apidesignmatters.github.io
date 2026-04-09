@@ -2,7 +2,7 @@
 title: What Am I Getting Out of This?
 date: 2023-03-16-am-i-getting-out-of-this
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 In the [last article of The Language of API Design series]({{ '/2023/03/07/chain-links-domain-model' | relative_url}}),

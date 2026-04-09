@@ -2,10 +2,8 @@
 title: From Domain Model to OpenAPI
 date: 2023-03-09 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
-
-{% include language-of-api-design-series.md %}
 
 We’ve built quite a bit of knowledge of the Chain Links API now: you know what the API needs to do, and what the resources are, and some of the constraints and bounds for the resources and behaviors. You can view my more complete Chain Links Domain Model below—this will be the foundation for the Chain Links API design.
 
@@ -15,6 +13,8 @@ We’ve built quite a bit of knowledge of the Chain Links API now: you know what
 [Read more]({{ '/2023/03/07/chain-links-domain-model' | relative_url}}))
 
 Now it's time to create an [OpenAPI definition](https://spec.openapis.org/oas/latest.html) to define and describe the API. This transformation of a domain model to an API definition is not strictly a mechanical task&mdash;there is some art and skill involved. It's best to establish and use some consistent API design patterns. While we use the Chain Links API as an example, this process can be generalized to other APIs.
+
+{% include language-of-api-design-series.md %}
 
 To start, copy [this generic skeleton OpenAPI 3.1 document](https://gist.github.com/DavidBiesack/26b04db45565eff3d34d6f1733b36dd1) and save it as a file called `openapi.yaml` in your source repository. You will build from this.
 

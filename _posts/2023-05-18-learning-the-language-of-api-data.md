@@ -2,7 +2,9 @@
 title: Learning the Language of API Data
 date: 2023-05-18 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tags:
+  - the-language-of-api-design
+  - json-schema
 ---
 
 > On the road to becoming fluent with JSON Schema
@@ -185,6 +187,10 @@ and semantics.
 
 Pardon me for going a bit meta here, but I like that JSON Schema uses the language of languages (words, vocabularies, dialects, syntax, and semantics) to describe itself.
 
+{% include json-schema.md %}
+
+<hr>
+
 <a id='footnote-1'/><a href='#footnote-1-ref'><sup>1</sup></a>
 Define: specify the type and shape of data, and any constraints such as minimum and maximum numeric values, minimum and maximum numeric values. Describe: provide prose descriptions of the data as documentation.
 
@@ -201,3 +207,7 @@ name `items` in the chain link API arises from a choice to name arrays
 within collections uniformly as that collection's _items_. Thus, the
 word `"items"` has two natural uses in an API definition ... because
 `"items"` is a very good choice for naming things within an array.
+
+{% include discuss.md %}
+
+{% include orig.md %}

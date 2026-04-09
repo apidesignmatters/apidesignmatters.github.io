@@ -2,7 +2,7 @@
 title: Chain Links Domain Model
 date: 2023-03-07 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 I present here a possible Domain Model for the Chain Links application

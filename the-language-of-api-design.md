@@ -21,6 +21,8 @@ some context for understanding later articles.
 
 {% for tag in site.tags %}
 
+{% if tag[0] == 'the-language-of-api-design' %}
+
 {% assign sorted_posts = tag[1] | sort: 'date'  %}
 {% for post in sorted_posts %}
 ## [{{ post.title }}]({{ post.url }})
@@ -29,10 +31,7 @@ some context for understanding later articles.
  <p style='text-align: right'>Published: {{ post.date | date: '%B %-d, %Y' }}</p>
 
 {% endfor %}
+{% endif %}
 {% endfor %}
 
 Thanks for reading _API Design Matters_!
-
-{% include discuss.md %}
-
-{% include orig.md %}

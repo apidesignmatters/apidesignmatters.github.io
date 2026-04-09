@@ -2,7 +2,7 @@
 title: Building an API Domain Model
 date: 2023-02-21 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 In my last article, API Design First is not API Design First, I presented a vastly over-simplified introduction of a domain modeling process and its desired outcomes. Our goal is to build a shared understanding of the problem for our team, focusing on the domain's ubiquitous language. In this next foray into the prerequisite for good API design process, we're going to get down and dirty and apply some of this to our fictional software start up scenario to build a working domain model.

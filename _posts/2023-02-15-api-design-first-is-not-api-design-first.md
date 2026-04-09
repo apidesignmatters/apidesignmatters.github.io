@@ -2,7 +2,7 @@
 title: API Design First is not API Design First
 date: 2023-02-15 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tag: the-language-of-api-design
 ---
 
 To kick off The Language of API Design series, we will take a brief but
@@ -16,6 +16,8 @@ In other words, today, I'm "Mr. Language Person".[<sup>1</sup>](#footnote-1)
 The term "API Design First" is quite popular now, but it is misleading. If one began by first creating an API design (fun as that may be for some of us), the result is likely not going to meet any real business need. Something needs to inform that design. That is, you need to know what problem your API is solving and what value the API brings to your consumers, before design starts. In many organizations, the folks who assess business goals and strategy have a "product" focus. They know the customers and their customer's needs and coalesce them into a series of user stories and other activities which result in a set of requirements. They are the folks who, acting as the voice of the customer, decide what needs to be done. Then the architects and engineering and technology teams decide how it will be done-often with an API. (That's good for you and me-Go APIs Go!)
 
 ![Banner graphic reading "API Design First is not API Design First" &vert; "The Language of API Design" &vert; "David Biesack" in bold graphic text]({{'/assets/img/API-Design-First-is-not-API-Design-First.png' | relative_url}})
+
+{% include language-of-api-design-series.md %}
 
 Thus, our journey begins with the true "First" step of leaving Bag End.
 You step onto the road, and if you don't keep your feet, there's no

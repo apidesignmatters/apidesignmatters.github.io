@@ -303,7 +303,7 @@ Of course, we cannot simply change the `type` of the `species` property to `"nul
 
 Instead, we can employ the `oneOf`
 [construct of JSON schema](https://json-schema.org/understanding-json-schema/reference/combining.html?highlight=oneof#oneof)&mdash;a
-value is valid if it matches `exactly one` of the alternate schemas in
+value is valid if it matches _exactly one_ of the alternate schemas in
 an array of schemas:
 
 ```yaml
@@ -340,12 +340,12 @@ Good, we've restored sanity to the universe!
 ## Always define a type constraint, except when you shouldn't
 
 Let's tie up some of this knowledge of JSON schemas to see how API
-models may be modeled. As mentioned in my previous article (see
-[Defining properties does not imply type: object]({{'023/07/11/master-json-schemas-subtleties#defining-properties-does-not-imply-type-object' | relative_url}})), one should always add a `type` constraint when defining JSON schemas, because without it, the schema will allow values of other types.
+data may be modeled. As mentioned in my previous article (see
+[Defining properties does not imply type: object]({{'/2023/07/11/master-json-schemas-subtleties#defining-properties-does-not-imply-type-object' | relative_url}})), one should always add a `type` constraint when defining JSON schemas, because without it, the schema will allow values of other types.
 
 Let’s consider composing schemas using mixin schemas, such as a
-mutableCharacterFields schema that is mixed into our character and
-characterReference schemas introduced above.
+`mutableCharacterFields` schema that is mixed into our `character` and
+`characterReference` schemas introduced above.
 
 ```yaml
 components:
@@ -439,9 +439,14 @@ allOf:
 
 A character reference object must satisfy both type constraints, but a `null` value only satisfies the second.
 
-Thus, it may be useful to omit the `type: object` constraint on mixin schemas such as in `mutableCharacterFields` so that the concrete (non-mixin) schemas that use the mixins can define the correct type constraint.
+Thus, it may be useful to omit the `type: object` constraint on mixin
+schemas such as in `mutableCharacterFields`, provided that that the concrete
+non-mixin schemas that are composed via the mixins can define the
+correct `type` constraint.
+That is, any schema used to define a request or response body or a
+property of such objects, should have a narrow `type` constraint.
 
-The other solution is to use the `oneOf` constraint on the properties instead of using the array type in the characterReference schema:
+Another solution is to use the `oneOf` constraint on the properties instead of using the `array` type within the `characterReference` schema:
 
 ```yaml
     character:
@@ -462,7 +467,11 @@ The other solution is to use the `oneOf` constraint on the properties instead of
                  - type: 'null'
 ```
 
-Alas, many OpenAPI SDK generation tools not not handle the `oneOf` keyword well.
+Alas, many OpenAPI SDK generation tools not not handle the `oneOf`
+keyword well.
+
+I prefer the first solution, as it requires only one source code change,
+not extra code each time such a schema is used.
 
 ## Summary
 

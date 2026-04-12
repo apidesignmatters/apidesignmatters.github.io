@@ -1,5 +1,8 @@
 all: rebuild
 
+touch:
+	touch archive.md json-schema.md the-language-of-api-design.md
+
 gen: build
 
 reset: clean install

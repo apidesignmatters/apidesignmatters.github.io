@@ -2,7 +2,9 @@
 title: Master JSON Schema's Subtleties
 date: 2023-07-11 18:00:00 -0000
 layout: post
-tag: the-language-of-api-deign
+tags:
+  - the-language-of-api-design
+  - json-schema
 ---
 
 > Don't be Surprised by JSON Schema's Surprising Surprises (Part I)

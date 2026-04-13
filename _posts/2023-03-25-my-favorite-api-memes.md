@@ -22,7 +22,7 @@ Sorry, no attribution on the following:
 
 Also no attribution.
 
-![Someone mentions "Swagger" and Batman slaps hi, saying "It's been OpenAPI since 20Bloody16"]({{ '/assets/img/Batman-slaps-villian-its-been-OpenAPI-since-20Bloody16.png' | relative_url}})
+![Someone mentions "Swagger" and Batman slaps hi, saying "It's been OpenAPI since 20Bloody16"]({{ '/assets/img/Batman-slaps-Robin-its-been-OpenAPI-since-20Bloody16.png' | relative_url}})
 
 No attribution
 
@@ -54,7 +54,7 @@ From Matthew Reinbold’s Net API Notes newsletter:
 
 No attribution
 
-![Villain: "But it's not RESTFUL if you...". Batman slaps him, "ENOUGH!"]({{ '/assets/img/Batman-slaps-Villian-But-its-not-RESTful-if-ENOUGH.png' | relative_url}})
+![Robin: "But it's not RESTFUL if you...". Batman slaps him, "ENOUGH!"]({{ '/assets/img/Batman-slaps-Robin-But-its-not-RESTful-if-ENOUGH.png' | relative_url}})
 
 Tweet from Kin Lane, the API Evangelist:
 

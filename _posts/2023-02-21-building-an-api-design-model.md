@@ -12,7 +12,19 @@ In my last article, API Design First is not API Design First, I presented a vast
 ![The Language of API Design &vert; David Biesack]({{'/assets/img/The-Language-of-API-Design-banner.png' | relative_url}})
 
 
-Caveat: This series does not strive to teach an entire domain modeling technique. I use my own process that is similar to ADDR, so there here are some similarities and also many differences. I am sharing what works for me, with the hope that you will benefit from that. I hope you are inspired to explore ADDR, DDD, and other design processes like Event Storming, Arnaud Lauret's API design canvas (from his excellent book, The Design of Web APIs), Mike Amundsen's Web API Design Methodology, and find what works best for you and your team.
+Caveat: This series does not strive to teach an entire domain modeling
+technique. I use my own process that is similar to the _[Align, Define,
+Design, Refine](https://addrprocess.com/what-is-addr/)_ (ADDR) process in James Higginbotham's
+_[Principals of Web API Design_](https://www.oreilly.com/library/view/principles-of-web/9780137355754/)_,
+so there here are some similarities and also many differences. I am
+sharing what works for me, with the hope that you will benefit from
+that. I hope you are inspired to explore ADDR, Domain-Driven Design, and
+other design processes like Event Storming, Arnaud Lauret's API design
+canvas (from his excellent book,
+_[The Design of Web APIs](https://www.manning.com/books/the-design-of-web-apis-second-edition)_),
+Mike Amundsen's
+[Web API Design Methodology](https://www.infoq.com/articles/web-api-design-methodology/),
+and find what works best for you and your team.
 
 The primary focus of API Design Matters is transforming requirements and domain models into an API design, not domain modeling. However, a robust and clearly articulated domain model ensures all stakeholders have the same vision for what you are building before design begins.
 

@@ -7,7 +7,10 @@ gen: build
 
 reset: clean install
 
-rebuild: clean build serve
+rebuild: clean build serve templates
+
+templates:
+	bash ./adm-archive-templates.sh
 
 install:
 	bundle install

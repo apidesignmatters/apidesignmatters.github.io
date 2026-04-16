@@ -5,7 +5,7 @@ permalink: /archive
 ---
 # {{ page.title }}
 
-View the archive of {{site.title}} articles here.
+View the archive of {{site.title}} articles here (in chronological order):
 
 {% assign sorted_posts = site.posts | sort: 'date'  %}
 {% for post in sorted_posts %}

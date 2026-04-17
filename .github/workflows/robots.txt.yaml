@@ -1,4 +1,4 @@
-name: Update robots.txt
+_site/robots.txname: Update robots.txt
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
       - name: Create robots.txt
         uses: s-thom/create-robots-txt-action@v1
         with:
-          output-file: _site/robots.txt
+          output-file: .new-robots.txt
           append-allow-rule: true
           allowed-bot-names: |
             Chrome-Lighthouse
@@ -34,7 +34,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           add-paths: |
-            _site/robots.txt
+            .new-robots.txt
           commit-message: "Update robots.txt"
           branch: robots-txt
           delete-branch: true

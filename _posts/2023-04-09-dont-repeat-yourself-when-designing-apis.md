@@ -1,6 +1,5 @@
 ---
-title: >-
-  "Don't Repeat Yourself" When Designing APIs
+title: Don't Repeat Yourself When Designing APIs
 date: 2023-04-09 18:00:00 -0000
 layout: post
 tag: the-language-of-api-design

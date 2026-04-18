@@ -12,6 +12,11 @@ tags:
 While [CRUD]({{'/2024/06/17/oh-crud'|relative_url}})
 may be the most common pattern in RESTful APIs, how to name things sure seems to be the most talked about.
 
+Next up in the [API Design Patterns]({{'/api-design-patterns' |
+relative_url}}) series on API Design Matters, I'd like to present
+a common pattern for managing API resources.
+
+
 Certainly, one can name API elements without following any
 pattern&hellip;. that will likely yield unfavorable results. As I noted
 in my

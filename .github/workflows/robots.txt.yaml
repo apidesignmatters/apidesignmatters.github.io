@@ -1,4 +1,4 @@
-name: Update robots.txt
+ename: Update robots.txt
 
 on:
   workflow_dispatch:
@@ -19,6 +19,7 @@ jobs:
       - name: Create robots.txt
         uses: s-thom/create-robots-txt-action@v1
         with:
+          input-file: base-robots.txt
           output-file: .new-robots.txt
           append-allow-rule: true
           allowed-bot-names: |

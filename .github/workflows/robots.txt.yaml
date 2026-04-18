@@ -1,4 +1,4 @@
-ename: Update robots.txt
+name: Update robots.txt
 
 on:
   workflow_dispatch:

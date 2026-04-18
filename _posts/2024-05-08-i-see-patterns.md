@@ -3,8 +3,8 @@ title: I See Patterns
 date: 2024-05-08 18:00:00 -0000
 layout: post
 tags:
-  the-language-of-api-design
-  patterns
+  - the-language-of-api-design
+  - api-design-patterns
 ---
 
 Humans are great at recognizing patterns. In software, software design

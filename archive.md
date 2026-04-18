@@ -5,7 +5,11 @@ permalink: /archive
 ---
 # {{ page.title }}
 
-View the archive of {{site.title}} articles here (in chronological order):
+Below is the full archive of {{site.title}} articles in chronological
+order.
+You can also visit articles tagged with specific topics:
+* [The Language of API Design]({{'/the-language-of-api-design' |  relative_url}})
+* [API Design Patterns]({{'/api-design-patterns' | relative_url}})
 
 {% assign sorted_posts = site.posts | sort: 'date'  %}
 {% for post in sorted_posts %}

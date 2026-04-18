@@ -9,7 +9,7 @@ tags:
 
 > Techniques for API Request Validation
 
-Next up in the API Patterns series on API Design Matters, I'd like to present some patterns for validating API requests.
+Next up in the [API Design Patterns]({{'/api-design-patterns' | relative_url}}) series on API Design Matters, I'd like to present some patterns for validating API requests.
 
 ![alt text]({{ '/assets/img/Validating-API-Requests.png' | relative_url}})
 

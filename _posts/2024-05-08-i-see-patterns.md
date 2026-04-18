@@ -38,7 +38,7 @@ Of course, the other main API Design Matters theme you may have noticed is that 
 
 This API Design Matters series will focus on a number of API design patterns &mdash; recurring patterns that we see over and over in API designs.
 
-Some of the patterns I'll discuss:
+Some of the [API Design Patterns]({{'/api-design-patterns'|relative_url}}) I'll discuss:
 
 * Oh, CRUD (or, Being Resourceful)
 * Resources and Collections; pagination/filtering/sorting

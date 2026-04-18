@@ -1,7 +1,7 @@
 all: rebuild
 
 touch:
-	touch archive.md json-schema.md the-language-of-api-design.md
+	touch archive.md json-schema.md the-language-of-api-design.md api-design-patterns.md
 
 gen: build
 

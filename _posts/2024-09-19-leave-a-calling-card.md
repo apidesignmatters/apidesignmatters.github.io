@@ -176,12 +176,11 @@ but still informative. Too many properties will just add noise,
 defeating the Developer Experience benefits of using reference objects.
 Choose key attributes of the resource to include in the reference
 object, such as the name or type of the resource. Avoid sensitive data,
-such as full account numbers, sensitive personally identifiable
-information (PII), etc. (Note: the author name shown in examples above
+such as full account numbers, sensitive Personally Identifiable
+Information (PII), etc. (Note: the author name shown in examples above
 is not PII, but is the author's public pen name.)
 
 <hr>
-
 I hope you see value in using reference objects over more cryptic and
 opaque identifiers or URLs. Why not try them out in your next API
 design? Please leave comments to share your experience.

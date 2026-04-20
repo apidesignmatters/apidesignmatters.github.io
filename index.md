@@ -14,7 +14,11 @@ practice of the same name. See David's [Services](/services).
 
 ![API Design Matters banner graphics by David Biesack](/assets/img/API-Design-Matters-banner.png)
 
-In _API Design Matters_ (ADM), I will focus on RESTful web services, but many of the concepts apply to other API styles like AsyncIO, GRPC, and GraphQL. Articles will pull from my 12 years experience designing RESTful APIs using OpenAPI, but include echos of designing traditional programming language interfaces and libraries over 30+ years of my career.
+In _API Design Matters_ (ADM), I will focus on RESTful web services, but
+many of the concepts apply to other API styles like AsyncIO, GRPC, and
+GraphQL. Articles will pull from my 13+ years experience designing
+RESTful APIs using OpenAPI, but include echos of designing traditional
+programming language interfaces, libraries, and frameworks over 35+ years of my career.
 
 API Design Matters is created and authored by
 [David Biesack](https://davidbiesack.github.io/).

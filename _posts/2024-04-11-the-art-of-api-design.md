@@ -188,7 +188,7 @@ so that the field would continue to thrive.
 
 * [Structure and Interpretation of Computer Programs](https://web.mit.edu/6.001/6.037/sicp.pdf) (SICP) by Abelson, Sussman and Sussman
 * [The Design and Analysis of Computer Algorithms](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/The%20Design%20and%20Analysis%20of%20Computer%20Algorithms%20%5BAho,%20Hopcroft%20&%20Ullman%201974-01-11%5D.pdf) by Aho, Hopcroft and Ullman
-* [Godel, Escher, Back: An Eternal Golden Braid](https://philosophygeek.medium.com/why-g%C3%B6del-escher-bach-is-the-most-influential-book-in-my-life-49d785a4e428) (GEB:EGB) by Douglas Hofstadter
+* [G&#246;del, Escher, Bach: An Eternal Golden Braid](https://philosophygeek.medium.com/why-g%C3%B6del-escher-bach-is-the-most-influential-book-in-my-life-49d785a4e428) (GEB:EGB) by Douglas Hofstadter
 * [The C Programming Language](https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf) by Kernigan and Ritchie
 * [Common LISP: The Language](https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html) (CLTL) by Guy Steele
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) (GOF) by Gamma, Helm, Johnson, Vlissides

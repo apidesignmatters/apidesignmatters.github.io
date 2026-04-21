@@ -42,3 +42,5 @@ conversation.
 {% include discuss.md %}
 
 You can also find me on [fosstodon.org/@DavidBiesack](https://fosstodon.org/@DavidBiesack) (no ɹǝʇʇᴉʍʇ, thank you).
+
+{% include rss.md %}

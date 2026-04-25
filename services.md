@@ -7,12 +7,12 @@ redirect_to: https://davidbiesack.github.io/services
 
 David provides strategic and tactical consulting for companies seeking to
 grow their business and create value through the deployment Application
-Programming Interfaces (APIs) and a great Developer Experience.
+Programming Interfaces (APIs) and a great Developer Experience (DX).
 
-David brings over 38 years experience in software technology and over 13
-years experience helping companies establish and build robust API and DX
-programs,
-David is passionate about making software &lt;development &#124; developers&gt; better,
+David brings over four decades of experience in software technology and
+over 13 years experience helping companies establish and build robust
+API and DX programs, David is passionate about making software
+&lt;development &#124; developers&gt; better,
 
 David helps companies understand and make their data and business
 capabilities available to internal and external parties, allowing growth

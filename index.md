@@ -12,7 +12,7 @@ _API Design Matters_.
 _API Design Matters_ is also the home for David Biesack's consultancy
 practice of the same name, where I help companies
 establish and grow successful API and Developer Experience programs.
-See David's [Services](/services).
+See David's [Services](https://davidbiesack.github.io/services).
 
 ![API Design Matters banner graphics by David Biesack](/assets/img/API-Design-Matters-banner.png)
 
@@ -21,7 +21,7 @@ many of the concepts apply to other API styles like AsyncIO, GRPC, and
 GraphQL. Articles will pull from my 13+ years experience designing
 RESTful APIs using OpenAPI, but include echos of designing traditional
 programming language interfaces, libraries, and frameworks over a
-[career](/career) spanning decades.
+[career](https://davidbiesack.github.io/career) spanning decades.
 
 API Design Matters is created and authored by
 [David Biesack](https://davidbiesack.github.io/).

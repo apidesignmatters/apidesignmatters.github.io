@@ -16,7 +16,11 @@ a critical mass. In previous articles, you've seen
 
 ## The Horrible Experience
 
-First, let's look at the wrong approach. Consider defining multiple problem responses in just one operation, to cover [`400`](https://davidbiesack.github.io/http-status-codes/400) (Bad Request) and [`422`](https://davidbiesack.github.io/http-status-codes/422) (Unprocessable Entity) HTTP status codes. If each response repeated the JSON schema for the application/problem+json response, the API definition becomes quite verbose quite quickly, almost 150 lines of YAML source for just those three responses for one operation.
+First, let's look at the wrong approach. Consider defining multiple
+problem responses in just one operation, to cover
+[`400`](https://davidbiesack.github.io/http-status-codes/400) (Bad
+Request),  [`409`](https://davidbiesack.github.io/http-status-codes/409) (Conflict),
+and [`422`](https://davidbiesack.github.io/http-status-codes/422) (Unprocessable Entity) HTTP status codes. If each response repeated the JSON schema for the application/problem+json response, the API definition becomes quite verbose quite quickly, almost 150 lines of YAML source for just those three responses for one operation.
 
 See my
 [`multiple-400-level-application-problem+json-response.yaml`](https://gist.github.com/DavidBiesack/5319932920759b07c65e72eb635c0125)

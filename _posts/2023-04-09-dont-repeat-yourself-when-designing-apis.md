@@ -18,7 +18,14 @@ a critical mass. In previous articles, you've seen
 
 First, let's look at the wrong approach. Consider defining multiple problem responses in just one operation, to cover [`400`](https://davidbiesack.github.io/http-status-codes/400) (Bad Request) and [`422`](https://davidbiesack.github.io/http-status-codes/422) (Unprocessable Entity) HTTP status codes. If each response repeated the JSON schema for the application/problem+json response, the API definition becomes quite verbose quite quickly, almost 150 lines of YAML source for just those three responses for one operation.
 
-See my [`multiple-400-level-application-problem+json-response.yaml`](https://gist.github.com/DavidBiesack/5319932920759b07c65e72eb635c0125) gist&mdash;I hope you see the "bad code smell" in that solution. Repeat that for every operation in an API and the result is a horrible developer experience. (This pattern is also known as _Write Everything Twice_ or _WET_.)
+See my
+[`multiple-400-level-application-problem+json-response.yaml`](https://gist.github.com/DavidBiesack/5319932920759b07c65e72eb635c0125)
+gist&mdash;I hope you see the "bad code smell" in that solution. Repeat
+that for every operation in an API and the result is a horrible
+developer experience. (This pattern is also known as
+[_Write Everything Twice_](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself#WET)
+or [_Write Each Time_]((https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/thing_91/)),
+i.e. _WET_.)
 
 Here are just a few immediately obvious problems of this WET method:
 

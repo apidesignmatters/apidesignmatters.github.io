@@ -41,8 +41,8 @@ years experience helping companies establish and build robust API and DX
 programs.
 David is passionate about making software &lt;development &#124; developers&gt; better,
 
-See David's [Career]({{'/career' | relative_url}}) and
-[Leadership]({{'/leadership' | relative_url}}) to learn more.
+See David's [Career](https://davidbiesack.github.io/career) and
+[Leadership](https://davidbiesack.github.io/leadership) to learn more.
 
 ## Agent Experience (AX)
 
@@ -65,4 +65,4 @@ and shared the below response with David via LinkedIn.
 (__Note__: I was the principle API architect behind Apiture's Digital Banking APIs
 and Developer Experience from 2017-2026._)
 
-[Contact David here]({{'/contact-me' | relative_url}}).
+[Contact David here](https://davidbiesack.github.io//contact-me).

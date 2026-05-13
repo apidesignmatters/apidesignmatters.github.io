@@ -9,7 +9,7 @@ tag: the-language-of-api-deign
 
 Developers like to consider themselves as creators&mdash;we create code, we create ideas, we create experiences. In the realm of APIs, we create interfaces so others can use our software. An important aspect of most APIs is their ability to create things as well. In the past1, we started at the end of the "CRUDL" initialism and discussed basic List operations in APIs. Next, we jump to the beginning of that "CRUDL" initialism and talk about the Create operations. Along the way, we'll apply many of the skills we've covered in the previous dozen or so articles of the Language of API Design.
 
-![banner graphic text reading "Getting Creative with OpenAPI" | The Language of APIs | API Design Matters | David Biesack ]({{ '/assets/img/Getting-Creative-with-OpenAPI.png | relative_url}})
+![banner graphic text reading "Getting Creative with OpenAPI" | The Language of APIs | API Design Matters | David Biesack ]({{ '/assets/img/Getting-Creative-with-OpenAPI.png' | relative_url}})
 
 {% include language-of-api-design-series.md %}
 

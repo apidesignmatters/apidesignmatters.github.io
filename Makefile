@@ -4,6 +4,7 @@ touch:
 	touch archive.md json-schema.md the-language-of-api-design.md api-design-patterns.md
 
 gen: build
+site: clean build templates
 
 reset: clean install
 

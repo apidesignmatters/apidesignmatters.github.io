@@ -1,0 +1,7 @@
+no-inline-html: # MD033
+  allowed_elements:
+    - hr
+    - br
+line-length: # MD013
+  line_length: 200 # line length
+

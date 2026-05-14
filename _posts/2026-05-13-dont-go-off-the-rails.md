@@ -83,7 +83,7 @@ make up time on the run.)
 [_Slanted Carriage_](https://www.flickr.com/photos/26968630@N08/14362466922) photo by [Craig Dennis](https://www.flickr.com/photos/craigmdennis/), used under CC BY 2.0 License.
 
 Not to specifically call out Canadian rail wrecks, but in 2017, I
-traveled Canadian Pacific Railways through the Canadian Rockies, where we rode
+traveled Canadian Pacific Railway through the Canadian Rockies, where we rode
 through the
 [Spiral Tunnels](https://parks.canada.ca/pn-np/bc/yoho/culture/kickinghorse/visit/spirale-spiral).
 The tunnels were dug into the mountains in order to reduce runaway
@@ -101,7 +101,7 @@ _Images from an historical marker sign at site._
 _Images from an historical marker sign at site._
 
 These are examples of what can happen when there is insufficient
-governance: systems can lead to failure instead of stayong on the tracks.
+governance: systems can lead to failure instead of staying on the tracks.
 
 ## Governance Culture
 
@@ -111,9 +111,9 @@ for safety. But that was not always enough.
 
 APIs (and API programs) do not have governors built in. People, or the
 processes that the people employ, are the governors. Tools may assist
-with governance, but the true to safer API programs key is _cultural_
+with governance, but the true key to safer API programs is _cultural_
 &mdash; gaining adoption by stakeholders and teams, based on recognition
-that the benefits (such as _reduced_ risk) outweigh the costs.
+that the shared benefits (such as _reduced_ risk) outweigh the costs.
 
 Teams already accept other forms
 of software development governance, such as established
@@ -131,7 +131,7 @@ issues (and root causes) after an API is in production.
 
 ## Examples of API Governance
 
-Some ways to employ effetive API governance:
+Some ways to employ effective API governance:
 
 * Establish and follow an API Style Guide. This is probably the most widely used tactic.
 * Related to a style guide is using tools such as Spectral to _lint_ an OpenAPI document, to identify violations of the style guide.

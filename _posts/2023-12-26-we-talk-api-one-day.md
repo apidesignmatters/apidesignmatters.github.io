@@ -318,8 +318,9 @@ To me, the key point of this OAS statement is
 Another word that gets widely used, especially when discussing APIs
 defined with the Open API Specification, is the term "specification",
 often abbreviated as "spec". Some use it to refer to an OpenAPI document that defines an API,
-such as the GitHub API's [rest-api-description](https://github.com/github/rest-api-description), as an "API Specification"
-or and API's "OpenAPI specification" or for short, an "API Spec".
+such as the GitHub API's
+[rest-api-description](https://github.com/github/rest-api-description),
+as an "API Specification" or an API's "OpenAPI specification" or for short, an "API Spec".
 
 See this [LinkedIn post](https://www.linkedin.com/posts/sagar-batchu-981b3738_just-finished-up-the-recording-of-my-talk-activity-7137500630054563841-NaSf?utm_source=share&utm_medium=member_desktop) ([edits] and emphasis mine):
 
@@ -330,7 +331,7 @@ See this [LinkedIn post](https://www.linkedin.com/posts/sagar-batchu-981b3738_ju
 I do ___not___ use "specification" or "spec" when talking about API
 definitions written using the OpenAPI Specification. Instead, I
 exclusively reserve the word "specification" for discussing the
-stadards,
+standards,
 such as the [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) (OAS) or the [Asycnc API Specification](https://www.asyncapi.com/docs/reference/specification/latest).
 
 ## Technical API Languages

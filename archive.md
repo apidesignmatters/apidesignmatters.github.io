@@ -24,4 +24,6 @@ You can also visit articles tagged with specific topics:
 <p style='text-align: right'>Published: {{ post.date | date: '%B %-d, %Y' }}</p>
 {% endfor %}
 
+----
+
 {% include discuss.md %}

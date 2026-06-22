@@ -53,6 +53,7 @@ exclude:
    - "_posts/.#*"
    - "_posts/*~"
    - "*~"
+   - ".#"
    - .sass-cache/
    - .jekyll-cache/
    - gemfiles/

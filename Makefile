@@ -19,9 +19,13 @@ update:
 	bundle update
 
 build:
-	bundle exec jekyll build --incremental
+	bundle exec jekyll build --baseurl=""
+
+auto-build:
+	bundle exec jekyll build --baseurl="" --watch
+
 serve:
-	bundle exec jekyll serve --incremental --baseurl="" --watch
+	bundle exec jekyll serve --baseurl="" --watch
 
 clean:
 	rm -rf _site

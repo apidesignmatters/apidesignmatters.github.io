@@ -18,8 +18,7 @@ to
 [keep our API definitions DRY]({{'/2023/04/09/dont-repeat-yourself-when-designing-apis'
 | relative_url}}).
 
-![banner with graphic text "Composing-API-Models-with-JSON-Schema &vert; The Language of API Design &vert; David Biesack"alt text]({{
- '/assets/img/Composing-API-Models-with-JSON-Schema.png' | relative_url}})
+![banner with graphic text "Composing-API-Models-with-JSON-Schema &vert; The Language of API Design &vert; David Biesack"alt text]({{'/assets/img/Composing-API-Models-with-JSON-Schema.png' | relative_url}})
 
 {% include language-of-api-design-series.md %}
 
@@ -195,7 +194,7 @@ Importantly, notice that these schemas build upon each other. A
 two additional properties. Here is a diagram which shows this structural
 composition:
 
-![`chainLinkItem` and `chainLink` composition]({{ '/assets/img/chainLinkItem-and-chainLink-composition.png | relative_url}})
+![`chainLinkItem` and `chainLink` composition]({{ '/assets/img/chainLinkItem-and-chainLink-composition.png' | relative_url}})
 
 (This is a simplification; below we'll describe a more flexible composition method.)
 

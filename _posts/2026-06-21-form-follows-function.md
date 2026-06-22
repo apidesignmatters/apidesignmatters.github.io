@@ -142,8 +142,8 @@ that is, the consistent use of _form_ may be as critical
 as more explicit descriptions of the semantics and behavior
 of an API.
 
-It's interesting how, in the age of AI chatbots and coding assistants,
-how focused we've become with _context_: context windows, prompts, etc.
+In the age of AI chatbots and coding assistants,
+it is interesting how focused we've become with _context_: context windows, prompts, etc.
 But I think that the expression of context (including our own implicit
 knowledge and intuition) is what guides human intelligence in
 understanding APIs and such context also is (or will be) necessary for

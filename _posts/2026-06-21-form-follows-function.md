@@ -1,5 +1,5 @@
 ---
-title: "Form Follows Function"
+title: "Form Follows Function Follows Form..."
 date: 2026-06-21 16:00:00 -0000
 slug: form-follows-function
 layout: post
@@ -140,7 +140,8 @@ them. I think this idea can apply to understanding APIs
 (by humans and perhaps by artificial intelligences);
 that is, the consistent use of _form_ may be as critical
 as more explicit descriptions of the semantics and behavior
-of an API.
+of an API. In API design, form follows function follows form
+in a virtuous cycle or... perhaps even a (Hostadter) Strange Loop.
 
 In the age of AI chatbots and coding assistants,
 it is interesting how focused we've become with _context_: context windows, prompts, etc.

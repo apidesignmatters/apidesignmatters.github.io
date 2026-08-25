@@ -5,7 +5,7 @@ layout: default
 ---
 
 Welcome to _API Design Matters_&trade;,
-where [David Biesack](https://davidbiesack.githubv.io)
+where [David Biesack](https://davidbiesack.github.io)
 writes about API Design and Developer Experience matters large and
 small, topics around building and running API programs... that is, why
 _API Design Matters_.

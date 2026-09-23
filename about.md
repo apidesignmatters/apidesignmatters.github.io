@@ -25,16 +25,16 @@ design and DX: how and why API Design matters to DX.
 
 ## About me
 
-I'm David Biesack. Until April, 26, I was Chief API Officer at Apiture.
+I'm David Biesack. Until April 2026, I was _Chief API Officer_ at [Apiture](https://www.apiture.com).
 Apiture is a Software-as-as-Service provider of digital banking to
 hundreds of financial institutions across the US. There, I was
 responsible for API architecture and design and Apiture's Developer
-Experience and Developer Portal. CSI acquired Apiture in October 2025,
+Experience and Developer Portal. [CSI](https://csiweb.com) acquired Apiture in October 2025,
 and my work there came to a close a few months after that.
 
 Prior to joining Apiture in 2017, I worked at SAS in Cary NC for 28
 years. For my last 5+ years at SAS, I ran the API Center of Excellence
-which managed SAS' API standards and API review process , assisted teams
+which managed SAS' API standards and API review process, assisted teams
 with API design, and otherwise helped with SAS' adoption of REST APIs.
 In my earlier positions at SAS, I designed and built a list library and
 object programming system for the SAS Command Language, was R&D Java

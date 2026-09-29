@@ -17,7 +17,7 @@ After 2023, "The Year of AI", I'd be insulting my valued readers if I claimed th
 Hey! This article is part of **#APIFutures**, a broad initiative started
 in 2024 to connect many creators in the #API space. See [API Futures](https://matthewreinbold.github.io/APIFutures) for view many excellent perspectives on what the Future of APIs may hold!
 
-![API Futures logo]({{'/assets/img/API-Futures-logo.png' | relative_url}})
+![API Futures logo]({{'/assets/img/open API-Futures-logo-black-bg.png' | relative_url}})
 
 There are three important aspects of the AI/API story to consider. The first is generating APIs with the help of an AI assistant. The second is using an AI assistant to generate client code to consume APIs to solve problems in client applications. The third is AI systems calling APIs directly on behalf of end users.
 
@@ -75,11 +75,11 @@ Aspect II of the AI/API integration question is _**using an AI assistant to gene
 
 How will a Generative AI Coding Assistant use an OpenAPI definition to guide the generation of API client code? It needs to understand the programmer's goals and intent (gleaned from the prompts or conversation). It then needs to be able to discover APIs that meet the needs (unless the prompt is very specific on which APIs to use) and which operations to invoke and what data to pass, and how to process the responses and map them to client state.
 
-Some of this "knowledge" or understanding of an APIs goals can be inferred from common patterns (several of which I've covered in API Design Matters), such as CRUDL resource-oriented APIs. I.e a `POST` operation with an `operationId` that begins with `create` and which includes a 201 Created response with a `Location` header provides several hints that the operation's purpose&mdash;its meaning&mdash;-is to create a new resource. But not all operations are quite as clear. This is where other semantic hints in the API definition can help not just an AI to "understand" the API, but humans as developers as well. I'm not sure what form such semantic hints will take.
+Some of this "knowledge" or understanding of an API's goals can be inferred from common patterns (several of which I've covered in API Design Matters), such as CRUDL resource-oriented APIs. I.e a `POST` operation with an `operationId` that begins with `create` and which includes a 201 Created response with a `Location` header provides several hints that the operation's purpose&mdash;its meaning&mdash;-is to create a new resource. But not all operations are quite as clear. This is where other semantic hints in the API definition can help not just an AI to "understand" the API, but humans as developers as well. I'm not sure what form such semantic hints will take.
 
 Coding assistants for specific languages may be able to use generated language-specific SDKs for building client application code, since that is a more direct and natural fit for coding assistants which can "learn" programming tasks.
 
-It may be that sufficiently rich `description` strings on operations and parameters and response will be sufficient for a powerful Generative AI, but I suspect not. Project Moonwalk (within the OpenAPI Initiative) [aims to address semantics in API definitions in OpenAPI 4 (Project Moonwalk](https://www.openapis.org/blog/2023/12/06/openapi-moonwalk-2024):
+It may be that sufficiently rich `description` strings on operations and parameters and response will be sufficient for a powerful Generative AI, but I suspect not. Project Moonwalk (within the OpenAPI Initiative) [aims to address semantics in API definitions in OpenAPI 4](https://www.openapis.org/blog/2023/12/06/openapi-moonwalk-2024):
 
 > **Semantics provide purpose**. It is not sufficient to describe the
 > mechanics of an API without also describing its semantics, whether the
@@ -101,7 +101,7 @@ code for correctness, suitability, security, etc.
 
 Our final API integration aspect is the most risky endeavor because it lacks the governance or control systems (code review, static code analysis, etc) that software teams often build around code generation processes. However, it is likely to be the form of AI/API integration that gets the most buzz and perhaps the most funding... using an AI as an agent (working on behalf of people), for doing digital tasks in "the real world", such as making travel or entertainment reservations or even conducting financial transactions, via APIs for those services.
 
-To safeguard you privacy and personal assets from API agents, I believe APIs need appropriate metadata&mdash;the analog of a `robots.txt` file&mdash;to inform AI agent consumers whether the API is appropriate for or suitable for use by AI Agents. For example, an API to control a medical device such as a Magnetic Resonance Image (MRI) or CT scanner is likely something that should not be put into under the control of an AI agent. Following a zero-trust model, the default should be a "no agent access allowed" setting unless a human deems it is safe an provides another less restrictive setting.
+To safeguard you privacy and personal assets from API agents, I believe APIs need appropriate metadata&mdash;the analog of a `robots.txt` file&mdash;to inform AI agent consumers whether the API is appropriate for or suitable for use by AI Agents. For example, an API to control a medical device such as a Magnetic Resonance Image (MRI) or CT scanner is likely something that should not be put into under the control of an AI agent. Following a zero-trust model, the default should be a "no agent access allowed" setting unless a human deems it is safe and provides another less restrictive setting.
 
 ## Related Reading
 
@@ -117,7 +117,7 @@ My hope is that we as software professionals do not have to ask this question af
 
 ### llms.txt
 
-See also [llms.txt](https://llmstxt.org/), "A proposal to standardise on
+See also [llms.txt](https://llmstxt.org/), "A proposal to standardize on
 using an `/llms.txt` file to provide information to help LLMs (large
 language models) use a website at inference time."
 

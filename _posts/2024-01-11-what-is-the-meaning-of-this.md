@@ -79,7 +79,7 @@ Some of this "knowledge" or understanding of an API's goals can be inferred from
 
 Coding assistants for specific languages may be able to use generated language-specific SDKs for building client application code, since that is a more direct and natural fit for coding assistants which can "learn" programming tasks.
 
-It may be that sufficiently rich `description` strings on operations and parameters and response will be sufficient for a powerful Generative AI, but I suspect not. Project Moonwalk (within the OpenAPI Initiative) [aims to address semantics in API definitions in OpenAPI 4](https://www.openapis.org/blog/2023/12/06/openapi-moonwalk-2024):
+It may be that sufficiently rich `description` strings on operations and parameters and response will be sufficient for a powerful Generative AI, but I suspect not. Project Moonwalk (within the OpenAPI Initiative) [aims to address semantics in API definitions in OpenAPI 4](https://www.openapis.org/blog/2023/12/04/openapi-moonwalk-2024):
 
 > **Semantics provide purpose**. It is not sufficient to describe the
 > mechanics of an API without also describing its semantics, whether the

@@ -15,7 +15,7 @@ After 2023, "The Year of AI", I'd be insulting my valued readers if I claimed th
  '/assets/img/What-is-the-Meaning-of-This.png' | relative_url}})
 
 Hey! This article is part of **#APIFutures**, a broad initiative started
-in 2024 to connect many creators in the #API space. See [API Futures](https://matthewreinbold.github.io/APIFutures) for view many excellent perspectives on what the Future of APIs may hold!
+in 2024 to connect many creators in the #API space. See [API Futures](https://matthewreinbold.github.io/APIFutures) to view many excellent perspectives on what the Future of APIs may hold!
 
 ![API Futures logo]({{'/assets/img/API-Futures-logo-black-bg.png' | relative_url}})
 

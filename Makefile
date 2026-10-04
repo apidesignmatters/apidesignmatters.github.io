@@ -6,6 +6,9 @@ touch:
 gen: build
 site: clean build templates
 
+open:
+	open http://127.0.0.1:4000/
+
 reset: clean install
 
 rebuild: clean build serve templates

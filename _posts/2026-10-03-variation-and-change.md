@@ -69,7 +69,7 @@ the real-world entities they model.
 
 Changing a _representation_ of such a resource model does not change the
 thing it represents. I can't vary my account's balance by simply
-replacing the `balance` property of a JSON object in some client system'
+replacing the `balance` property of a JSON object in some client system's
 memory, no more than I can improve my bottom line by simply changing the
 balance in my check register.
 
@@ -82,7 +82,7 @@ is just a representation of the original Maxim.
 Thus, it is useful to **RE**member what the **RE** means in "**REST**"
 (**RE**presentational **S**tate **T**ransfer). The message
 objects and resource objects are just that — data _representations_ of
-the real-work object the system is modeling. These representations are
+the real-world object the system is modeling. These representations are
 very thin facsimiles of reality. We have to keep in mind that, as
 attributed to George E. P. Box,
 

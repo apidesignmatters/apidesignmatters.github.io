@@ -1,6 +1,6 @@
 ---
 title: What's with LinkedIn Recruiting?
-date: 2026-10-06 18:00:00 -0000
+date: 2026-11-07 13:00:00 -0000
 layout: post
 ---
 

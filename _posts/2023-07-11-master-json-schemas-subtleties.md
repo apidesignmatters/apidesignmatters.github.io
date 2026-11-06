@@ -238,7 +238,7 @@ components:
               type: number
 ```
 
-This now works: an object with only numeric `x`, `y`, and `z properties
+This now works: an object with only numeric `x`, `y`, and `z` properties
 is valid; an object with fewer or more properties is invalid, as is an
 object with non-numeric values for`x`,`y`, and`z`. (Of course, like
 `additionalProperties` discussed above, `unevaluatedProperties` names a
@@ -318,7 +318,7 @@ quoted with double quotes, such as
 "12.3"
 ```
 
-If you want to pass non-JSON string data to an API request body and not quote it, don’t use the content type `application`/json. If you use `application/json`, the request body
+If you want to pass non-JSON string data to an API request body and not quote it, don’t use the content type `application/json`. If you use `application/json`, the request body
 
 ```text
 this is a string

@@ -294,8 +294,7 @@ This example uses a mixin schema named `twoDimensionalPointFields` and defines b
 
 The primary lesson here is that one must design schemas carefully, with
 composition in mind&mdash;_avoid_ using `unevaluatedProperties: false`
-in schemas that you use to compose other schemas (and conversely, don’t
-use `unevaluatedProperties: false` in mixin schemas used to compose other schemas).
+in schemas that you use to compose other schemas.
 
 ## type: string and application/json is not suitable for plain text
 

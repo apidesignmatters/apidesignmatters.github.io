@@ -69,7 +69,7 @@ the real-world entities they model.
 
 Changing a _representation_ of such a resource model does not change the
 thing it represents. I can't vary my account's balance by simply
-replacing the `balance` property of a JSON object in some client system'
+replacing the `balance` property of a JSON object in some client system's
 memory, no more than I can improve my bottom line by simply changing the
 balance in my check register.
 
@@ -82,7 +82,7 @@ is just a representation of the original Maxim.
 Thus, it is useful to **RE**member what the **RE** means in "**REST**"
 (**RE**presentational **S**tate **T**ransfer). The message
 objects and resource objects are just that — data _representations_ of
-the real-work object the system is modeling. These representations are
+the real-world object the system is modeling. These representations are
 very thin facsimiles of reality. We have to keep in mind that, as
 attributed to George E. P. Box,
 
@@ -120,7 +120,7 @@ some of that experience, as there is much to be said... at a later time)
 Alas, _API Design Matters_ suffered... but I should be able to return to
 a more regular cadence: I have a new position (to be announced soon),
 which I started a month ago. I'm very excited about my role and the
-organization and their mission. Two months in, the most gratifying
+organization and their mission. After one month in, the most gratifying
 aspect for me is the team of people I'm working with.
 
 I had a fabulous time at Apiture for the full 8-year tenure of its existence.
@@ -128,7 +128,7 @@ I am very proud of the work we did there, and very grateful
 for the people I worked with. They gave me great freedom to grow, and
 they offered me an abundance of opportunities to contribute to some
 excellent products, culture, teamwork, learnings, and awesome APIs. It
-was sad to leave on those terms, but I look forward tackling some very
+was sad to leave on those terms, but I look forward to tackling some very
 interesting problems and putting my passions for great APIs and
 Developer Experience towards a new adventure.
 

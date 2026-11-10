@@ -303,15 +303,15 @@ the future._)
 <hr>
 
 The happy ending after all this turmoil is that I _did_ find a great full-time job
-whihc I started August 31, 2026. Perhaps (as you might expect),
+which I started at the end of August, 2026. Perhaps (as you might expect),
 this opportunity did _not_ come to me through LinkedIn, but rather through
 an established professional connection.
 As _Principal Technologist, Standards and Delivery_, I assist
 [Financial Data Exchange](http://financialdataexchange.org)
 members and staff evolve the FDX Open Finance API standard
 in North America. I focus on API design and architecture, and ensuring
-consensus, clarity, coherence, consistency, and compliance with other
-open standards (such as OpenAPI, JSON Schema, OAuth, FAPI, etc.) across
+consensus, clarity, coherence, and consistency -- as well as compliance with other
+open standards (such as OpenAPI, JSON Schema, OAuth, FAPI, etc.) -- across
 the FDX APIs and documentation.
 <hr>
 

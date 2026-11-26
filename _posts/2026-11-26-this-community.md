@@ -6,7 +6,7 @@ layout: post
 
 > Thankful for...
 
-![Banner graphic text with bold block letters reading "This Community" (black on blue background), "API Design Matters" (black on yellow background), Davud Biesack (vertical teal on black background), with patterned background]({{
+[Banner graphic text with bold block letters reading "This Community" (black on blue background), "API Design Matters" (black on yellow background), David Biesack (vertical teal on black background), with patterned background]({{
  '/assets/img/This-Community.png' | relative_url}})
 
 OK, to start, I'll list what I'm not really thankful for. Then I'll get
